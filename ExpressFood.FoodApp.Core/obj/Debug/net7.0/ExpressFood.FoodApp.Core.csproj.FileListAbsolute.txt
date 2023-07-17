@@ -1,0 +1,12 @@
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\bin\Debug\net7.0\ExpressFood.FoodApp.Core.deps.json
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\bin\Debug\net7.0\ExpressFood.FoodApp.Core.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\bin\Debug\net7.0\ExpressFood.FoodApp.Core.pdb
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\obj\Debug\net7.0\ExpressFood.FoodApp.Core.csproj.AssemblyReference.cache
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\obj\Debug\net7.0\ExpressFood.FoodApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\obj\Debug\net7.0\ExpressFood.FoodApp.Core.AssemblyInfoInputs.cache
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\obj\Debug\net7.0\ExpressFood.FoodApp.Core.AssemblyInfo.cs
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\obj\Debug\net7.0\ExpressFood.FoodApp.Core.csproj.CoreCompileInputs.cache
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\obj\Debug\net7.0\ExpressFood.FoodApp.Core.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\obj\Debug\net7.0\refint\ExpressFood.FoodApp.Core.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\obj\Debug\net7.0\ExpressFood.FoodApp.Core.pdb
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Core\obj\Debug\net7.0\ref\ExpressFood.FoodApp.Core.dll

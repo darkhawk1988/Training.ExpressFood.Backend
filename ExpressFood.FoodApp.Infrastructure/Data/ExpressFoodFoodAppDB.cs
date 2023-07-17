@@ -16,5 +16,10 @@ namespace ExpressFood.FoodApp.Infrastructure.Data
         {
             
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<ApplicationUser>().HasKey(u => u.Username);
+        }
     }
 }

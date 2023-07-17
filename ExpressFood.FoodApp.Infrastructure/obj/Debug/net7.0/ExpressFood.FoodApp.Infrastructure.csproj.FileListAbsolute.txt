@@ -1,0 +1,15 @@
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\bin\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.deps.json
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\bin\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\bin\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.pdb
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\bin\Debug\net7.0\ExpressFood.FoodApp.Core.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\bin\Debug\net7.0\ExpressFood.FoodApp.Core.pdb
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.csproj.AssemblyReference.cache
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.AssemblyInfoInputs.cache
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.AssemblyInfo.cs
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.csproj.CoreCompileInputs.cache
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.csproj.CopyComplete
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\refint\ExpressFood.FoodApp.Infrastructure.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\ExpressFood.FoodApp.Infrastructure.pdb
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.Infrastructure\obj\Debug\net7.0\ref\ExpressFood.FoodApp.Infrastructure.dll

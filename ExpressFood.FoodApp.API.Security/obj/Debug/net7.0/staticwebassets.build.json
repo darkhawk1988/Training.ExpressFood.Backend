@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DqAO4gfOfLEHn5G8lkuVkoOloXzq+y/Q95Wh0hEKKg0=",
+  "Source": "ExpressFood.FoodApp.API.Security",
+  "BasePath": "_content/ExpressFood.FoodApp.API.Security",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
