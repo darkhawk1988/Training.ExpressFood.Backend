@@ -11,6 +11,7 @@ namespace ExpressFood.FoodApp.Infrastructure.Data
     public class ExpressFoodFoodAppDB : DbContext
     {
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Restaurant> Restaurants { get; set; }
         public ExpressFoodFoodAppDB(DbContextOptions<ExpressFoodFoodAppDB> options)
             :base(options)
         {

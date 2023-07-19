@@ -28,29 +28,29 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapPost("/signup", (ExpressFoodFoodAppDB db,ApplicationUser user ) =>
+app.MapPost("/signup",async (ExpressFoodFoodAppDB db,ApplicationUser user ) =>
     {
-        db.ApplicationUsers.Add(user);
-        db.SaveChanges();
+        await db.ApplicationUsers.AddAsync(user);
+        await db.SaveChangesAsync();
         return Results.Ok(user);
     });
 
-app.MapPost("/signin", (ExpressFoodFoodAppDB db, LoginDto login) =>
+app.MapPost("/signin",async (ExpressFoodFoodAppDB db, LoginDto login) =>
 {
-    var result = db.ApplicationUsers.
-    FirstOrDefault(u => u.Username == login.Username && u.Password == login.Password);
+    var result =await db.ApplicationUsers.
+    FirstOrDefaultAsync(u => u.Username == login.Username && u.Password == login.Password);
     if(result == null)
     {
-        return Results.Ok(new
+        return Results.Ok(new LoginResultDto
         {
-            message = "نام کاربری یا کلمه عبور صحیح نیست",
-            success = false
+            Message = "نام کاربری یا کلمه عبور صحیح نیست",
+            IsSucceed = false
         });
     }
-    return Results.Ok(new
+    return Results.Ok(new LoginResultDto
     {
-        message = "خوش آمدید",
-        success = true
+        Message = "خوش آمدید",
+        IsSucceed = true
     });
 });
 

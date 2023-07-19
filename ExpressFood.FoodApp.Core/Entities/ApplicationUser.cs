@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExpressFood.FoodApp.Core.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace ExpressFood.FoodApp.Core.Entities
         public string Gender { get; set; }
         public string NationalCode { get; set; }
         public DateTime BirthDate { get; set; }
+        public ApplicationUserType Type { get; set; }
         public string EmailAddress { get; set; }
     }
 }
