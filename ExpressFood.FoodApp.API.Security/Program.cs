@@ -1,7 +1,13 @@
 using ExpressFood.FoodApp.API.Security.DTOs;
 using ExpressFood.FoodApp.Core.Entities;
 using ExpressFood.FoodApp.Infrastructure.Data;
+using ExpressFood.FoodApp.Infrastructure.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +22,9 @@ builder.Services.AddDbContext<ExpressFoodFoodAppDB>(options =>
 builder.Services.AddCors(options
     => options.AddDefaultPolicy(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
+SecurityServices.AddServices(builder);
 var app = builder.Build();
+SecurityServices.UseServices(app);
 app.UseCors();
 
 // Configure the HTTP request pipeline.
@@ -47,10 +55,24 @@ app.MapPost("/signin",async (ExpressFoodFoodAppDB db, LoginDto login) =>
             IsSucceed = false
         });
     }
+    var claims = new[]
+    {
+        new Claim("Type",result.Type.ToString()),
+        new Claim("Username",result.Username.ToString()),
+    };
+    var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key" ?? ""]));
+    var signIn= new SigningCredentials(key,SecurityAlgorithms.HmacSha256);
+var token = new JwtSecurityToken(
+    builder.Configuration["Jwt:Issuer"],
+    builder.Configuration["Jwt:Audience"],
+    claims,
+    expires: DateTime.UtcNow.AddDays(1),
+    signingCredentials: signIn);
     return Results.Ok(new LoginResultDto
     {
         Message = "خوش آمدید",
-        IsSucceed = true
+        IsSucceed = true,
+        Token= new JwtSecurityTokenHandler().WriteToken(token)
     });
 });
 

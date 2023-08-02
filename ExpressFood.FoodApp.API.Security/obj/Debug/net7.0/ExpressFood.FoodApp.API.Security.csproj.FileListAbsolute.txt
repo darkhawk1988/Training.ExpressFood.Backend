@@ -78,3 +78,7 @@ F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.Fo
 F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.API.Security\obj\Debug\net7.0\ExpressFood.FoodApp.API.Security.pdb
 F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.API.Security\obj\Debug\net7.0\ExpressFood.FoodApp.API.Security.genruntimeconfig.cache
 F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.API.Security\obj\Debug\net7.0\ref\ExpressFood.FoodApp.API.Security.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.API.Security\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\My Folder\Educational\FinalProject\ExpressFood.FoodApp\Backend\ExpressFood.FoodApp.API.Backend\ExpressFood.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

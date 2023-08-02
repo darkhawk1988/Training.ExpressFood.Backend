@@ -23,5 +23,7 @@ namespace ExpressFood.FoodApp.Core.Entities
             set { myPrice = value - (value * Discount); }
         }
         public string Description { get; set; }
+        public Restaurant Restaurant { get; set; }
+        public int RestaurantId { get; set; }
     }
 }
