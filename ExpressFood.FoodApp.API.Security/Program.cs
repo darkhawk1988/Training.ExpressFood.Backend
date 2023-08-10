@@ -45,6 +45,7 @@ app.MapPost("/signup",async (ExpressFoodFoodAppDB db,ApplicationUser user ) =>
 
 app.MapPost("/signin",async (ExpressFoodFoodAppDB db, LoginDto login) =>
 {
+    Thread.Sleep(3000);
     var result =await db.ApplicationUsers.
     FirstOrDefaultAsync(u => u.Username == login.Username && u.Password == login.Password);
     if(result == null)
@@ -70,6 +71,7 @@ var token = new JwtSecurityToken(
     signingCredentials: signIn);
     return Results.Ok(new LoginResultDto
     {
+        Type=result.Type.ToString(),
         Message = "خوش آمدید",
         IsSucceed = true,
         Token= new JwtSecurityTokenHandler().WriteToken(token)
