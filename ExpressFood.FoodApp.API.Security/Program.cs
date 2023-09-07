@@ -38,6 +38,11 @@ app.UseHttpsRedirection();
 
 app.MapPost("/signup",async (ExpressFoodFoodAppDB db,ApplicationUser user ) =>
     {
+        var rg = new Random();
+        user.VerificationCode=rg.Next(100000,1000000).ToString();
+        user.BirthDate=DateTime.Now;
+        user.RegisterDate=DateTime.Now;
+        user.Verified=true;
         await db.ApplicationUsers.AddAsync(user);
         await db.SaveChangesAsync();
         return Results.Ok(user);
@@ -45,9 +50,27 @@ app.MapPost("/signup",async (ExpressFoodFoodAppDB db,ApplicationUser user ) =>
 
 app.MapPost("/signin",async (ExpressFoodFoodAppDB db, LoginDto login) =>
 {
-    Thread.Sleep(3000);
+    if(!db.ApplicationUsers.Any())
+    {
+        await db.ApplicationUsers.AddAsync(new ApplicationUser
+        {
+            Username = "admin",
+            Password = "admin",
+            Firstname = "administrator",
+            Lastname = "administrator",
+            Gender = "male",
+            NationalCode = "1111111111",
+            BirthDate = DateTime.Now,
+            RegisterDate=DateTime.Now,
+            Type=ExpressFood.FoodApp.Core.Enums.ApplicationUserType.SystemAdmin,
+            EmailAddress = "admin@test.com",
+            Verified = true
+        });
+        await db.SaveChangesAsync();
+    }
+    //Thread.Sleep(3000);
     var result =await db.ApplicationUsers.
-    FirstOrDefaultAsync(u => u.Username == login.Username && u.Password == login.Password);
+    FirstOrDefaultAsync(u => u.Username == login.Username && u.Password == login.Password && u.Verified==true);
     if(result == null)
     {
         return Results.Ok(new LoginResultDto

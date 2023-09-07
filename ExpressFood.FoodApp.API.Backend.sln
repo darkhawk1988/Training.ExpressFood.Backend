@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-API", "3-API", "{88787B89
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressFood.FoodApp.Core", "ExpressFood.FoodApp.Core\ExpressFood.FoodApp.Core.csproj", "{DE39638D-C389-4BDF-AEF2-6ABC70A99919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressFood.FoodApp.Infrastructure", "ExpressFood.FoodApp.Infrastructure\ExpressFood.FoodApp.Infrastructure.csproj", "{82603E89-C7DC-4B8E-B34F-BE453EAE947A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressFood.FoodApp.Infrastructure", "ExpressFood.FoodApp.Infrastructure\ExpressFood.FoodApp.Infrastructure.csproj", "{82603E89-C7DC-4B8E-B34F-BE453EAE947A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressFood.FoodApp.API.Restaurants", "ExpressFood.FoodApp.API.Restaurants\ExpressFood.FoodApp.API.Restaurants.csproj", "{FBEDFA40-E763-4D5C-8514-3CF5AF2311E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{82603E89-C7DC-4B8E-B34F-BE453EAE947A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82603E89-C7DC-4B8E-B34F-BE453EAE947A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82603E89-C7DC-4B8E-B34F-BE453EAE947A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBEDFA40-E763-4D5C-8514-3CF5AF2311E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEDFA40-E763-4D5C-8514-3CF5AF2311E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEDFA40-E763-4D5C-8514-3CF5AF2311E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEDFA40-E763-4D5C-8514-3CF5AF2311E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{E5008417-1564-4170-B8EB-6CCB1B1E1421} = {88787B89-3A24-4EC2-9E57-156BEFF33F3F}
 		{DE39638D-C389-4BDF-AEF2-6ABC70A99919} = {0F4BD1F7-87A0-47E8-9C67-6ED4BE4799BD}
 		{82603E89-C7DC-4B8E-B34F-BE453EAE947A} = {7B405EBC-3A49-4E69-8163-61134BCDDBE3}
+		{FBEDFA40-E763-4D5C-8514-3CF5AF2311E0} = {88787B89-3A24-4EC2-9E57-156BEFF33F3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C200E5C4-3E12-4135-B5A0-7874C2678F4A}

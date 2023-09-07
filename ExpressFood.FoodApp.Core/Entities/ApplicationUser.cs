@@ -16,7 +16,10 @@ namespace ExpressFood.FoodApp.Core.Entities
         public string Gender { get; set; }
         public string NationalCode { get; set; }
         public DateTime BirthDate { get; set; }
+        public DateTime RegisterDate { get; set; }
         public ApplicationUserType Type { get; set; }
         public string EmailAddress { get; set; }
+        public bool Verified { get; set; } = false;
+        public string VerificationCode { get; set; }
     }
 }

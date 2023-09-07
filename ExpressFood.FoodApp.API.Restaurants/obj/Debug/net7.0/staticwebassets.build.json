@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CYAS3bUl0LiZK3osgpKwaWqRykbBp6UWYElf8+jbXXU=",
+  "Source": "ExpressFood.FoodApp.API.Restaurants",
+  "BasePath": "_content/ExpressFood.FoodApp.API.Restaurants",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
