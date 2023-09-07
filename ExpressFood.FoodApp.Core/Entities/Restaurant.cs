@@ -16,5 +16,6 @@ namespace ExpressFood.FoodApp.Core.Entities
         public string? ApproverUsername { get; set; }
         public DateTime? ApprovedTime { get; set;}
         public bool IsActive { get; set; }
+        public string Address { get; set; }
     }
 }
