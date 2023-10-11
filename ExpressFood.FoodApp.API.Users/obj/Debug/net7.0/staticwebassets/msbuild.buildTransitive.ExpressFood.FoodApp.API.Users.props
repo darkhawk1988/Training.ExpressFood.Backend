@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ExpressFood.FoodApp.API.Users.props" />
+</Project>

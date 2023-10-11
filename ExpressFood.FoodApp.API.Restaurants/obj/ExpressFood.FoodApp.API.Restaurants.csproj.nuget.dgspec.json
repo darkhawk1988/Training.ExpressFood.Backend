@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\ExpressFood.FoodApp.API.Restaurants.csproj": {}
+    "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\ExpressFood.FoodApp.API.Restaurants.csproj": {}
   },
   "projects": {
-    "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\ExpressFood.FoodApp.API.Restaurants.csproj": {
+    "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\ExpressFood.FoodApp.API.Restaurants.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\ExpressFood.FoodApp.API.Restaurants.csproj",
+        "projectUniqueName": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\ExpressFood.FoodApp.API.Restaurants.csproj",
         "projectName": "ExpressFood.FoodApp.API.Restaurants",
-        "projectPath": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\ExpressFood.FoodApp.API.Restaurants.csproj",
-        "packagesPath": "C:\\Users\\DarkHawk\\.nuget\\packages\\",
-        "outputPath": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\obj\\",
+        "projectPath": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\ExpressFood.FoodApp.API.Restaurants.csproj",
+        "packagesPath": "C:\\Users\\shahi\\.nuget\\packages\\",
+        "outputPath": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.API.Restaurants\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DarkHawk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,16 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj": {
-                "projectPath": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj"
+              "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj": {
+                "projectPath": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj"
               }
             }
           }
@@ -78,24 +76,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj": {
+    "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj",
+        "projectUniqueName": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj",
         "projectName": "ExpressFood.FoodApp.Core",
-        "projectPath": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj",
-        "packagesPath": "C:\\Users\\DarkHawk\\.nuget\\packages\\",
-        "outputPath": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\obj\\",
+        "projectPath": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj",
+        "packagesPath": "C:\\Users\\shahi\\.nuget\\packages\\",
+        "outputPath": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DarkHawk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -104,7 +102,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -138,24 +135,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj": {
+    "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj",
         "projectName": "ExpressFood.FoodApp.Infrastructure",
-        "projectPath": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\DarkHawk\\.nuget\\packages\\",
-        "outputPath": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\obj\\",
+        "projectPath": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\ExpressFood.FoodApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\shahi\\.nuget\\packages\\",
+        "outputPath": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DarkHawk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -164,15 +161,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj": {
-                "projectPath": "F:\\My Folder\\Educational\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj"
+              "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj": {
+                "projectPath": "C:\\My Folder\\Educational\\Programming\\FinalProject\\ExpressFood.FoodApp\\Backend\\ExpressFood.FoodApp.API.Backend\\ExpressFood.FoodApp.Core\\ExpressFood.FoodApp.Core.csproj"
               }
             }
           }
@@ -216,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

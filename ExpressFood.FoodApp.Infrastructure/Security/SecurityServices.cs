@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
@@ -37,6 +39,14 @@ namespace ExpressFood.FoodApp.Infrastructure.Security
         {
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseExceptionHandler(e => e.Run(async contex =>
+            {
+                var exception = contex.Features
+                    .Get<IExceptionHandlerPathFeature>().Error;
+                var response = new { error = exception.Message };
+                await contex.Response.WriteAsJsonAsync(response);
+            }));
         }
     }
 }
